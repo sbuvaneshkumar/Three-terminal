@@ -3,7 +3,7 @@ import threading
  
 class CountThread(threading.Thread):
     def run(self):
-        subprocess.call('/bin/gnome-terminal') % (x)
+        subprocess.call('/bin/gnome-terminal') 
  
 a = CountThread()
 a.start()
